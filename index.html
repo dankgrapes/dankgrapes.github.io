@@ -6,10 +6,19 @@
   <meta name="description" content="The dankest site on the World Wide Web">
 
   <style>
+
     body {
       background-color: yellow;
       background-image: url("assets/images/dank-grapes.gif");
     }
+
+    #hit-counter {
+      position: fixed;
+      bottom: 0%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
   </style>
 </head>
 
@@ -29,6 +38,10 @@
       console.log(messages[randomizer(messages.length - 1)]);
     })();
   </script>
+
+  <div id="hit-counter">
+    <img src="http://www.free-website-hit-counter.com/c.php?d=9&id=94263&s=5">
+  </div>
 
 </body>
 </html>
